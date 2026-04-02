@@ -6,10 +6,10 @@ import { cn } from '../lib/utils';
 import { PriorityBadge } from '../components/ui-custom/PriorityBadge';
 import { StatusBadge } from '../components/ui-custom/StatusBadge';
 import { PriorityLevel, TaskStatus, Task } from '../types';
-import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogFooter, DialogTrigger, DialogClose } from '../components/ui/dialog';
-import { Button } from '../components/ui/button';
-import { Input } from '../components/ui/input';
-import { Select } from '../components/ui/select';
+import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogFooter, DialogTrigger, DialogClose } from '@/components/ui/dialog';
+import { Button } from '@/components/ui/button';
+import { Input } from '@/components/ui/input';
+import { Select } from '@/components/ui/select';
 import { FocusTimer } from '../components/FocusTimer';
 
 export function TasksView() {
